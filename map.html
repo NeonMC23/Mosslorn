@@ -20,12 +20,13 @@
       <a href="lore.html">Lore</a>
       <a href="team.html">Team</a>
       <a href="map.html" style="color: #188e8a; text-decoration: underline"
-        >Tools</a
+        >Maps</a
       >
       <a href="wiki.html">Wiki</a>
     </nav>
     <main>
       <h2>Map</h2>
+
       <p>
         This tool allows you to view different layers of the Mosslorn map. Use
         <em>
@@ -53,6 +54,19 @@
           </label>
           <input type="range" id="slider" min="0" max="17" value="17" />
         </div>
+        <button
+          style="
+            background-color: #188e8a;
+            color: white;
+            padding: 7px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+          "
+          onclick="window.location.href='viewer.html'"
+        >
+          View Map
+        </button>
         <img id="image" src="src/map-level/MOSSLORN_320.png" alt="Carte" />
       </div>
 
