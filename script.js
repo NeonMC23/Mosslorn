@@ -2,17 +2,20 @@ const slider = document.getElementById("slider");
 const image = document.getElementById("image");
 const viewInputs = document.querySelectorAll('input[name="view"]');
 
-// Suffixes pour MOSSLORN
 const suffixesMosslorn = [
   "065",
   "075",
   "085",
   "095",
   "105",
-  "120",
+  "115",
+  "125",
   "135",
-  "150",
-  "170",
+  "145",
+  "155",
+  "165",
+  "175",
+  "185",
   "200",
   "230",
   "260",
@@ -20,8 +23,11 @@ const suffixesMosslorn = [
   "320",
 ];
 
-// Fichiers .webp pour MAPS_WEBP
-const webpMaps = ["map1.webp", "map2.webp", "map3.webp"];
+const webpMaps = [
+  "map-zone/MOSSLORN_1.png",
+  "map-zone/MOSSLORN_2.png",
+  "map-zone/MOSSLORN_3.png",
+];
 
 let currentView = "MOSSLORN";
 let currentIndex = 0;
